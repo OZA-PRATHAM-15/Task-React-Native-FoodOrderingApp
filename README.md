@@ -10,9 +10,9 @@ This is a React Native app that allows users to browse food items, add them to a
 - Add items to the watchlist.
 - Save items for later.
 
-## Screenshots
+## Video demo
 
-![Food Ordering App](./screenshots/food_ordering_app.png)
+![Download or Open the Video](./videos/demo.mp4)
 
 ---
 
