@@ -1,79 +1,123 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Food Ordering App
 
-# Getting Started
+This is a React Native app that allows users to browse food items, add them to a watchlist, and filter items by type (Vegetarian/Non-Vegetarian) and price range. The app also includes a search functionality to search for food items by name.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- Search for food items by name.
+- Filter by food type (Vegetarian/Non-Vegetarian).
+- Filter by price range.
+- Add items to the watchlist.
+- Save items for later.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Screenshots
 
-To start Metro, run the following command from the _root_ of your React Native project:
+![Food Ordering App](./screenshots/food_ordering_app.png)
 
-```bash
-# using npm
-npm start
+---
 
-# OR using Yarn
-yarn start
-```
+## Installation and Setup
 
-## Step 2: Start your Application
+### Prerequisites
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- Node.js (version 14.x or above)
+- React Native CLI
+- Android Studio / Xcode for iOS (or Expo CLI if using Expo)
+- A code editor like VSCode
 
-### For Android
+### Steps
 
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
+#### 1. Clone the repository
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+git clone https://github.com/your-repo/food-ordering-app.git
+cd food-ordering-app
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Here is the complete README.md file converted into proper .md format:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+md
+Copy code
 
-## Step 3: Modifying your App
+# Food Ordering App
 
-Now that you have successfully run the app, let's modify it.
+This is a React Native app that allows users to browse food items, add them to a watchlist, and filter items by type (Vegetarian/Non-Vegetarian) and price range. The app also has a search functionality to search for food items by name.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## Features
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+- Search for food items.
+- Filter by food type (Vegetarian/Non-Vegetarian).
+- Filter by price range.
+- Add items to the watchlist.
+- Save items for later.
 
-## Congratulations! :tada:
+## Screenshots
 
-You've successfully run and modified your React Native App. :partying_face:
+![Food Ordering App](./screenshots/food_ordering_app.png)
 
-### Now what?
+---
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## Installation and Setup
 
-# Troubleshooting
+### Prerequisites
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+- Node.js (version 14.x or above)
+- React Native CLI
+- Android Studio / Xcode for iOS (or Expo CLI if using Expo)
+- A code editor like VSCode
 
-# Learn More
+### 1. Clone the repository
 
-To learn more about React Native, take a look at the following resources:
+```bash
+git clone https://github.com/your-repo/food-ordering-app.git
+cd food-ordering-app
+```
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+### 2. Install dependencies
+
+```bash
+Copy code
+npm install
+```
+
+### 3. Set up Android/iOS environments
+
+```
+Make sure you have Android Studio (for Android) or Xcode (for iOS) installed and configured. Alternatively, you can use Expo for easier setup.
+```
+
+- For Android:
+
+```
+Ensure you have an emulator set up in Android Studio or use a physical device.
+```
+
+### 4.Optional: Clear Cache
+
+If you run into issues during setup, try clearing the cache:
+
+```bash
+npx react-native start --reset-cache
+```
+
+## How to Use
+
+- Search for Food: Use the search bar at the top of the home page to - search for food items by name.
+- Filter by Type and Price: Press the filter button to show filter - options, where you can filter by type (Vegetarian/Non-Vegetarian) or - price range.
+- Watchlist & Save: You can add items to your watchlist or save them for later by clicking the respective buttons on the food item card.
+- Video Demonstration
+- Watch the video demonstration:
+
+## Troubleshooting
+
+- If you encounter any issues, try the following steps:
+
+- Ensure that all dependencies are installed by running npm install again.
+  - If using iOS, make sure you have the correct version of Xcode installed and run:
+    ```bash
+    cd ios && pod install
+    ```
+    - If issues persist, try clearing the Metro bundler cache with:
+      ```bash
+      npx react-native start --reset-cache
+      ```
