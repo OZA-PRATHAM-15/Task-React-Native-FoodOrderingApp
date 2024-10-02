@@ -12,7 +12,7 @@ This is a React Native app that allows users to browse food items, add them to a
 
 ## Video demo
 
-[![Watch the video](https://www.youtube.com/watch?v=Qu2B3K8vy7o&ab_channel=PRATHAMOZA)]
+[![Watch the video](https://miro.medium.com/v2/resize:fit:915/1*is_n9D4_T21bg5TbBYKW7Q.jpeg)(https://www.youtube.com/watch?v=Qu2B3K8vy7o&ab_channel=PRATHAMOZA)]
 
 ---
 
